@@ -1,0 +1,86 @@
+body {
+  background-color: aqua;
+}
+
+html {
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+img {
+    box-shadow: 20px 10px 5px 0px rgba(0,0,0,0.75);
+}
+    
+}
+
+.header_1 {
+  font-family: "Kalam", cursive;
+  color: purple;
+}
+
+.header_1 {
+  font-family: ´Pacifico´, cursive;
+  color: rgba(200, 50, 70, 0.5);
+  font-size: 1em;
+}
+
+#cover_img {
+  with: 400 px;
+}
+
+.bold-text {
+  font-weight: bold;
+  color: burlywood;
+}
+
+.color-text-gray {
+  color: gray;
+}
+
+#lineup {
+    width:100%;
+    height:600px;
+    margin-top:2em;
+    background-image:url("https://rendering.ru/media/catalog/product/cache/1dc054dad79ef2da273ae03dc370a2cb/i/t/itrees-palms-03.jpg");
+    
+    background position:center;
+    background-repeat :no-repeat;
+    background-size :cover; }
+
+    
+
+.card {
+width: 200px;
+height: 200px;
+background-color: bisque;
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+border: 10px rebeccapurple;
+border-width: 10px 0 0 0 
+border-radius: 15px;
+padding : 40px 20px 20px 20px
+
+}
+
+.card p{
+color:red;
+text-align: center;
+
+}
+
+@media screen and (min-width: 320px){
+body {
+
+    background-color: blueviolet;
+}
+
+}
+
+@media screen and (min-width: 720px){
+    body {
+        background-color: chartreuse;
+     }
+}
+    
